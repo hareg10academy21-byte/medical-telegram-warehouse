@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+  - name: raw
+    database: medical_warehouse
+    schema: raw
+
+    tables:
+      - name: telegram_messages
+
+        description: "Raw Telegram messages loaded from JSON."
+
+        columns:
+          - name: message_id
+            description: "Unique Telegram message id"
+
+          - name: channel_name
+            description: "Telegram channel"
+
+          - name: message_date
+            description: "Date of message"
+
+          - name: message_text
+            description: "Original message"
+
+          - name: views
+            description: "Number of views"
+
+          - name: forwards
+            description: "Forward count"
+
+          - name: has_image
+            description: "Whether image exists"
+
+          - name: image_path
+            description: "Downloaded image path"
