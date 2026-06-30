@@ -1,0 +1,15 @@
+2026-06-30 10:19:42.495 | INFO     | __main__:main:125 - Connecting to Telegram...
+2026-06-30 10:19:45.264 | INFO     | __main__:main:129 - Connected successfully.
+2026-06-30 10:19:45.265 | INFO     | __main__:scrape_channel:69 - Starting scraping: lobelia4cosmetics
+2026-06-30 10:43:24.245 | INFO     | __main__:main:125 - Connecting to Telegram...
+2026-06-30 10:43:24.455 | INFO     | __main__:main:129 - Connected successfully.
+2026-06-30 10:43:24.455 | INFO     | __main__:scrape_channel:69 - Starting scraping: lobelia4cosmetics
+2026-06-30 11:46:33.394 | INFO     | __main__:save_json:61 - Saved 500 messages → data\raw\telegram_messages\2026-06-30\lobelia4cosmetics.json
+2026-06-30 11:46:33.411 | INFO     | __main__:scrape_channel:105 - Finished lobelia4cosmetics | Messages: 500
+2026-06-30 11:46:33.430 | INFO     | __main__:scrape_channel:69 - Starting scraping: tikvahpharma
+2026-06-30 12:11:21.218 | INFO     | __main__:save_json:61 - Saved 500 messages → data\raw\telegram_messages\2026-06-30\tikvahpharma.json
+2026-06-30 12:11:21.225 | INFO     | __main__:scrape_channel:105 - Finished tikvahpharma | Messages: 500
+2026-06-30 12:11:21.251 | INFO     | __main__:scrape_channel:69 - Starting scraping: MedInEthio
+2026-06-30 12:11:30.488 | INFO     | __main__:save_json:61 - Saved 0 messages → data\raw\telegram_messages\2026-06-30\MedInEthio.json
+2026-06-30 12:11:30.489 | INFO     | __main__:scrape_channel:105 - Finished MedInEthio | Messages: 0
+2026-06-30 12:11:30.514 | INFO     | __main__:main:135 - All channels scraped successfully.

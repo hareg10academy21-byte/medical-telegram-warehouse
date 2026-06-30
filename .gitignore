@@ -1,0 +1,13 @@
+# Telegram session (VERY IMPORTANT)
+telegram_session.session
+telegram_session.session-journal
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Data (optional but recommended)
+data/raw/images/

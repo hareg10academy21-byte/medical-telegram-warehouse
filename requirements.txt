@@ -1,0 +1,7 @@
+telethon==1.41.2
+python-dotenv==1.1.1
+pandas==2.3.0
+tqdm==4.67.1
+loguru==0.7.3
+Pillow==11.3.0
+aiofiles==24.1.0
