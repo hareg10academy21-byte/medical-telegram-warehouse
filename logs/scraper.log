@@ -13,3 +13,6 @@
 2026-06-30 12:11:30.488 | INFO     | __main__:save_json:61 - Saved 0 messages → data\raw\telegram_messages\2026-06-30\MedInEthio.json
 2026-06-30 12:11:30.489 | INFO     | __main__:scrape_channel:105 - Finished MedInEthio | Messages: 0
 2026-06-30 12:11:30.514 | INFO     | __main__:main:135 - All channels scraped successfully.
+2026-06-30 18:28:40.745 | INFO     | __main__:main:125 - Connecting to Telegram...
+2026-06-30 18:28:41.631 | INFO     | __main__:main:129 - Connected successfully.
+2026-06-30 18:28:41.633 | INFO     | __main__:scrape_channel:69 - Starting scraping: lobelia4cosmetics
