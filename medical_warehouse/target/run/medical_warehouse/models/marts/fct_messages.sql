@@ -14,11 +14,7 @@
 
     c.channel_key,
 
-    TO_CHAR(
-        s.message_date,
-        'YYYYMMDD'
-    )::INTEGER
-        AS date_key,
+    d.date_key,
 
     s.message_text,
 
@@ -32,8 +28,10 @@
 
 FROM "medical_warehouse"."analytics"."stg_telegram_messages" s
 
-JOIN "medical_warehouse"."analytics"."dim_channels" c
+LEFT JOIN "medical_warehouse"."analytics"."dim_channels" c
+    ON s.channel_name = c.channel_name
 
-ON s.channel_name = c.channel_name
+LEFT JOIN "medical_warehouse"."analytics"."dim_dates" d
+    ON s.message_date::DATE = d.full_date
   );
   
