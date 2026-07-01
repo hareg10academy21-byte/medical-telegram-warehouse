@@ -10,3 +10,18 @@
 [0m14:07:08.834955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026691CE84D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266922BCAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266922BFA50>]}
 [0m14:07:08.837116 [debug] [MainThread]: Flushing usage events
 [0m14:07:14.812482 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:09:21.990837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1D3A12150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1D3A13C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1D3A1CBD0>]}
+
+
+============================== 15:09:22.002321 | b4eab084-d2df-4c6b-b6f7-a1a4f149ad09 ==============================
+[0m15:09:22.002321 [info ] [MainThread]: Running with dbt=1.12.0-b3
+[0m15:09:22.006764 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Hp\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt docs generate', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:09:22.008797 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Hp\medical-telegram-warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:09:22.015238 [debug] [MainThread]: Command `dbt docs generate` failed at 15:09:22.015238 after 0.40 seconds
+[0m15:09:22.019903 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1D3A13210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1D38FB210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1D38FB0D0>]}
+[0m15:09:22.019903 [debug] [MainThread]: Flushing usage events
+[0m15:09:24.718595 [debug] [MainThread]: An error was encountered while trying to flush usage events
